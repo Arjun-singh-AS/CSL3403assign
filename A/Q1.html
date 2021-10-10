@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Question 1</title>
+</head>
+<body>
+    <h1>Explain box model with an example</h1>
+    <div class="container">
+        Box modal is about The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+
+    <dl>
+        <dt><b>Content-</b></dt>
+        <dd>The content of the box, where text and images appear
+        </dd>
+        <dt><b>Padding-</b></dt><dd>Clears an area around the content. The padding is transparent</dd>
+        <dt><b>Border-</b></dt><dd>A border that goes around the padding and content</dd>
+        <dt><b>Margin-</b></dt><dd>Clears an area outside the border. The margin is transparent</dd>
+    </dl>
+    </div>
+   <h2> here we are going to dicusse an example-</h2>
+    <div class="boxmodel1">
+        This is first box. This is margin for box2
+            <div class="boxmodel2">
+               This is second box(innnerbox). <br>
+               space bitween border to content is padding.
+            </div>
+    </div>
+
+    
+    <style>
+        h1,h2{
+            text-align:center;
+        }
+        .container{
+            width: 80%;
+            /* text-align: center; */
+            margin: auto;
+        }
+        .boxmodel2{
+            width: 60%;
+            height: 200px;
+            background-color: aqua;
+            border: 5px solid black;
+            margin: auto;
+            margin-top:70px;
+            padding: 50px;
+        }
+        .boxmodel1{
+             width: 80%;
+            height: 500px;
+            background-color:red;
+            border: 5px solid black;
+            margin: auto;
+                 }
+
+
+    </style>
+</body>
+</html>
